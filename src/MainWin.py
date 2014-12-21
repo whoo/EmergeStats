@@ -12,7 +12,7 @@ class MainWin(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self,title="windows Update")
         self.set_border_width(10)
-        self.set_default_size(200, 100)
+        self.set_default_size(400, 100)
         self.set_icon_name(Gtk.STOCK_EXECUTE)
 
         hb = Gtk.HeaderBar()
